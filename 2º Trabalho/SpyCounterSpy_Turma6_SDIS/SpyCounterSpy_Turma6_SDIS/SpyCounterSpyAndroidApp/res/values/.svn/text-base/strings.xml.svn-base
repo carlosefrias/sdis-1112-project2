@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpyCounterSpy</string>
+    <string name="logoutButton">Botão sair</string>
+    <string name="your_atack_items">Seus itens de ataque</string>
+    <string name="your_defense_items">Seus itens de defesa</string>
+    <string name="Your_Avatar_Image">A imagem do seu avatar</string>
+    <string name="BackButton">Voltar</string>
+    <string name="GoToMapButton">Ir para mapa</string>
+    <string name="AtackItemDescription">Descrição do item de ataque</string>
+    <string name="DefenseItemDescription">Descrição do item de defesa</string>
+    <string name="AvatarName">Nome do avatar</string>
+    <string name="avatarItems">Os seus itens escolhidos</string>
+    <string name="locationMap">Mapa da sua localização</string>
+    <string name="EquipPage">Equipar o seu avatar</string>
+    <string name="ViewEnemy">Vizualização de inimigo</string>
+    <string name="attack_result">Resultado do ataque</string>
+    
+
+</resources>

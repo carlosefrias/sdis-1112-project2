@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/NomeAvatarViewMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Avatar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/BackButtonOnViewMap"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.88"
+            android:text="Voltar" />
+
+        <Button
+            android:id="@+id/ViewMapChangeStyle"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.52"
+            android:text="Alterar Estilo do Mapa" />
+
+        <Button
+            android:id="@+id/ViewMapSair"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="Sair" />
+
+    </LinearLayout>
+
+<!-- //Comentario Seria assim MapActivity livro pág 300 -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+    <com.google.android.maps.MapView android:id="@+id/map"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:apiKey="0RDg1c__3NFUxqZLGSoLG6ZfEtLgFIVEFAGA3aw"
+		android:clickable="true" />
+	<LinearLayout android:id="@+id/zoom"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true" />
+
+	</RelativeLayout>
+<!--   -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqui irá surgir o mapa com a localização actual do utilizador" />
+
+</LinearLayout>
